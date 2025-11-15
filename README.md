@@ -9,5 +9,5 @@ description: [I’m a Computer Science student with a strong interest in softwar
 Through both academic and personal projects, I’ve developed a solid foundation in programming, teamwork, and analytical thinking. I’m always eager to learn new technologies and take on challenges that help me grow as a developer. My goal is to apply my skills to meaningful projects that make a positive impact in the real world.]
 
 + Disable "View My GitHub Profile": pages-themes/cayman#29
-![Pic Image](Pic.JPG)
+![Pic Image](DSD_0223 (1).JPG)
 
