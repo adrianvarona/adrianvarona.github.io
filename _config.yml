@@ -10,7 +10,7 @@ Through both academic and personal projects, I’ve developed a solid foundation
 
 + Disable "View My GitHub Profile": pages-themes/cayman#29
 
- avatar: /assets/images/Pic.JPG
+ image: /assets/images/Pic.JPG
 
 github:
   zip_url: adrianvarona.github.io
