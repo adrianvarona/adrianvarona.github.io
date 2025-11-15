@@ -16,6 +16,6 @@ Through both academic and personal projects, I’ve developed a solid foundation
 
 
 ![Pic Image](DSD_0223 (1).JPG)
-
+ 
 show_downloads:[false]
 
