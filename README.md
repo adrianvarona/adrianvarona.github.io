@@ -1,6 +1,6 @@
 
 [Home](/)
-[About](/education/)
+[Education](/education/)
 
 
 ### Biography
