@@ -22,4 +22,4 @@ include:
   - assets/css/custom.css
   - _layouts/default.html
 
-<a href="/education/" class="button">education</a>
+
