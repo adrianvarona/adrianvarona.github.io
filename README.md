@@ -1,7 +1,7 @@
 ---
 layout: page
 title: README
-permalink: /README/
+permalink: /
 ---
 [education](/education/)
 
