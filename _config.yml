@@ -10,12 +10,7 @@ description: I’m a Computer Science student
 
 show_downloads: false
 
-# Optional navigation links
-nav:
-  - name: Home
-    link: /
-  - name: education
-    link: /education/
+
 
 
 
