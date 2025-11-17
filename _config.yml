@@ -10,15 +10,15 @@ description: I’m a Computer Science student
 
 show_downloads: false
 
-.next-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #007acc;
-  color: white;
+<a href="page2.html" class="next-page">Next Page →</a>
+
+<style>
+.next-page {
+  color: #267CB9;
   text-decoration: none;
-  border-radius: 5px;
   font-weight: bold;
 }
-.next-btn:hover {
-  background: #005fa3;
+.next-page:hover {
+  text-decoration: underline;
 }
+</style>
