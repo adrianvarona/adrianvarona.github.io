@@ -4,7 +4,7 @@ title: education
 permalink: /education/
 #next_page: /contact/
 ---
-[README](/README/)
+[README](/)
 
 
 #Lol
