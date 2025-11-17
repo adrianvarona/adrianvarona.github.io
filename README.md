@@ -3,7 +3,6 @@ layout: page
 title: README
 permalink: /README/
 ---
-[README](/README/)
 [education](/education/)
 
 ### Biography
