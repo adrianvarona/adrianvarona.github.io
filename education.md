@@ -5,6 +5,6 @@ permalink: /education/
 #next_page: /contact/
 ---
 
-Welcome to the About page!
 
-<a href="/README/" class="button">Home</a>
+
+<a href="/contact/" class="button">Go to Contact</a>
