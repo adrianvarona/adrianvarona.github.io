@@ -9,3 +9,24 @@ description: I’m a Computer Science student
 
 
 show_downloads: false
+
+{% if page.next_page %}
+  <div class="page-nav">
+    <a href="{{ page.next_page }}" class="next-page">Next Page →</a>
+  </div>
+{% endif %}
+
+<style>
+.page-nav {
+  margin-top: 40px;
+  text-align: right;  /* right-align to match Minimal theme style */
+}
+.next-page {
+  color: #267CB9;
+  text-decoration: none;
+  font-weight: bold;
+}
+.next-page:hover {
+  text-decoration: underline;
+}
+</style>
