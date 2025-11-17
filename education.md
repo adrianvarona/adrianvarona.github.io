@@ -1,3 +1,5 @@
+
+<a href="/README/" class="button">Go to Home</a>
 ---
 layout: default
 title: education
@@ -7,4 +9,4 @@ permalink: /education/
 
 
 
-<a href="/README/" class="button">Go to Home</a>
+
