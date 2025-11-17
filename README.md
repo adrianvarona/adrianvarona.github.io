@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+permalink: /Home/
+next_page: /education/
+---
+
 <a href="/education/" class="button">Go to Educationt</a>
 ### Biography
 
