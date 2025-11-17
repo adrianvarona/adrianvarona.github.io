@@ -1,9 +1,4 @@
----
-layout: page
-title: Home
-permalink: /Home/
-next_page: /education/
----
+
 
 <a href="/education/" class="button">Go to Education</a>
 ### Biography
