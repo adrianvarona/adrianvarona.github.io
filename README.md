@@ -1,7 +1,4 @@
 
-
-
-
 ### Biography
 
 # I’m a Computer Science student with a strong interest in software development and problem-solving. My passion lies in building practical and creative solutions through coding and technology. I have experience working with languages such as Python, Java, and JavaScript, and I enjoy exploring areas like web development, algorithms, and data science.
