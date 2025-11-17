@@ -7,4 +7,4 @@ permalink: /education/
 
 Welcome to the About page!
 
-<a href="/contact/" class="button">Home</a>
+<a href="/README/" class="button">Home</a>
