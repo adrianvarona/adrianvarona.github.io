@@ -20,6 +20,6 @@ nav:
 # Add this if you don't already have "include"
 include:
   - assets/css/custom.css
-  - _layouts/default.html
+  
 
 
