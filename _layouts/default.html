@@ -1,66 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
-  </head>
-  <body>
-    <header class="site-header" style="text-align: center; margin-bottom: 2rem;">
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" style="height:60px; margin-bottom: 0.5rem;">
-      {% endif %}
-      <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-      {% if site.description %}
-        <p class="site-description">{{ site.description }}</p>
-      {% endif %}
-    </header>
+{% if page.next_page %}
+  <div class="page-nav">
+    <a href="{{ page.next_page }}" class="next-page">Next Page →</a>
+  </div>
+{% endif %}
 
-    <main class="site-main" style="max-width: 800px; margin: 0 auto; padding: 0 1rem;">
-      {{ content }}
-    </main>
+<style>
+.page-nav {
+  margin-top: 40px;
+  text-align: right;  /* right-align to match Minimal theme style */
+}
+.next-page {
+  color: #267CB9;
+  text-decoration: none;
+  font-weight: bold;
+}
+.next-page:hover {
+  text-decoration: underline;
+}
+</style>
 
-    <footer style="max-width: 800px; margin: 2rem auto 4rem auto; padding: 0 1rem; text-align: right;">
-      {% if page.previous_page %}
-        <a href="{{ page.previous_page }}" class="page-nav">← Previous</a>
-      {% endif %}
-      {% if page.next_page %}
-        <a href="{{ page.next_page }}" class="page-nav">Next Page →</a>
-      {% endif %}
-    </footer>
-
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: #111;
-        background-color: #fff;
-        margin: 0;
-      }
-      a {
-        color: #267CB9;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .page-nav {
-        font-weight: bold;
-        margin-left: 1rem;
-      }
-      h1.site-title a {
-        color: #111;
-        text-decoration: none;
-      }
-      h1.site-title a:hover {
-        text-decoration: underline;
-      }
-      .site-description {
-        color: #555;
-        margin-top: 0.2rem;
-      }
-    </style>
-  </body>
-</html>
+{% if page.previous_page or page.next_page %}
+<div class="page-nav">
+  {% if page.previous_page %}
+    <a href="{{ page.previous_page }}" class="next-page">← Previous</a>
+  {% endif %}
+  
+  {% if page.next_page %}
+    <a href="{{ page.next_page }}" class="next-page">Next Page →</a>
+  {% endif %}
+</div>
+{% endif %}
