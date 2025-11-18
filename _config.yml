@@ -1,6 +1,6 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
-- jekyll-remote-theme
+- jekyll-remote-theme 
 
 logo: Pic.JPG
 
@@ -11,11 +11,6 @@ description: I’m a Computer Science student
 show_downloads: false
 
 
-collections:
-  docs:
-    output: true
-    order:
-      - intro.md
-      - chapter1.md
+
 
 
