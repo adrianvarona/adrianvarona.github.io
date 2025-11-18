@@ -1,5 +1,19 @@
+---
+
+title: education
+permalink: /
+next_page: /education/
+---
+
  ### Biography
 
 # I’m a Computer Science student with a strong interest in software development and problem-solving. My passion lies in building practical and creative solutions through coding and technology. I have experience working with languages such as Python, Java, and JavaScript, and I enjoy exploring areas like web development, algorithms, and data science.
 # Through both academic and personal projects, I’ve developed a solid foundation in programming, teamwork, and analytical thinking. I’m always eager to learn new technologies and take on challenges that help me grow as a developer. My goal is to apply my skills to meaningful projects that make a positive impact in the real world 
 
+---
+
+## Content  
+- [Page 1](README.md)  
+- [Page 2](educatiom.md)  
+
+---
