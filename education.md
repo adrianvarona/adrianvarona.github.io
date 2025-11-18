@@ -11,5 +11,7 @@ previous_page: /
 # Education
 
 ## Highschool
-	dkfjsdkfjlksdjfkdlsjfl
+	2023-2025 Baguio City National Science High School	
+				Graduated with Honors
+				
 
