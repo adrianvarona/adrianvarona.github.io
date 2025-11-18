@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ minimal@v0.2.0 }}";   // load Minimal theme
+
+/* Custom background color */
+body {
+  background-color: #001f4d; /* dark blue */
+  color: white; /* optional: make text readable on dark background */
+}
+
+/* Optional: change link color */
+a {
+  color: #7fbfff;
+}
