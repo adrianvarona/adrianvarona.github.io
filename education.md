@@ -9,6 +9,12 @@ permalink: /education/
 
 #Lol
 
+---
 
+## Content  
+- [Page 1](README.md)  
+- [Page 2](educatiom.md)  
+
+---
 
 
