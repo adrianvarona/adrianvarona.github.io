@@ -14,6 +14,6 @@ permalink: /
 
 ## Content  
 - [Page 1](README.md)  
-- [Page 2](educatiom.md)  
+- [Next page](education.md)  
 
 ---
