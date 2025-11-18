@@ -10,7 +10,8 @@ description: I’m a Computer Science student
 
 show_downloads: false
 
-
+sass:
+  style: compressed
 
 
 
