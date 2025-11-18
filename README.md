@@ -7,6 +7,13 @@
 
 ---
 
+## Content  
+- [Page 1](page1.md)  
+- [Page 2](page2.md)  
+- [Page 3](page3.md)
+
+---
+
 <div style="display:flex; justify-content: space-between; margin-top: 2rem;">
   <a href="page1.md" style="font-size: 1.2rem;">⬅ Previous</a>
   <a href="page2.md" style="font-size: 1.2rem;">Next ➡</a>
