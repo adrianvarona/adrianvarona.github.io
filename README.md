@@ -1,6 +1,6 @@
 ---
 
-title: education
+title: Home
 permalink: /
 next_page: /education/
 ---
