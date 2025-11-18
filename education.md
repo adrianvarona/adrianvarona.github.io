@@ -9,6 +9,6 @@ permalink: /education/
 
 #Lol
 
-% include nav.html %
+ include nav.html 
 
 
