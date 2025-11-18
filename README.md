@@ -2,7 +2,7 @@
 
 title: Home
 permalink: /
-next_page: /education/
+
 ---
 
  ## Biography
