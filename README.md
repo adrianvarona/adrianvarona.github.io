@@ -12,8 +12,7 @@ permalink: /
 
 ---
 
-## Content  
-- [Page 1](README.md)  
+## Content    
 - [Next page](education.md)  
 
 ---
