@@ -11,6 +11,11 @@ description: I’m a Computer Science student
 show_downloads: false
 
 
-
+collections:
+  docs:
+    output: true
+    order:
+      - intro.md
+      - chapter1.md
 
 
