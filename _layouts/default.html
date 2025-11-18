@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+
+    <section>
+      {{ content }}
+
+      <!-- NEXT/PREV NAVIGATION -->
+      <hr>
+      <div class="page-nav">
+        {% if page.previous %}
+          <a class="btn prev" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
+        {% endif %}
+        {% if page.next %}
+          <a class="btn next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+        {% endif %}
+      </div>
+
+      <style>
+        .page-nav {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+        }
+        .page-nav a {
+          padding: 0.4em 0.6em;
+          background: #eee;
+          border-radius: 4px;
+          text-decoration: none;
+        }
+      </style>
+    </section>
+
+  </div>
+</body>
+</html>
