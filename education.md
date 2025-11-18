@@ -13,8 +13,8 @@ previous_page: /
 ---
 
 ## Content  
-- [Page 1](README.md)  
-- [Page 2](educatiom.md)  
+- [Previous page](README.md)  
+
 
 ---
 
