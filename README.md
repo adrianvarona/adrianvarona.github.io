@@ -5,7 +5,7 @@ permalink: /
 
 ---
 
-## Biography      
+#   Biography  
 ---  
 - [Next page](education.md)  
 --- 
